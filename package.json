@@ -1,0 +1,33 @@
+{
+  "name": "vue-router-guards",
+  "main": "dist/guards.min.js",
+  "version": "1.0.0",
+  "description": "Vue-router guards for auth and access checks",
+  "scripts": {
+    "build": " ./node_modules/.bin/webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavelShar/vue-router-guards.git"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "vue-router",
+    "vue-guards"
+  ],
+  "author": {
+    "name": "Paul Sharypov"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PavelShar/vue-router-guards/issues"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "webpack": "^4.20.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.1"
+  }
+}
