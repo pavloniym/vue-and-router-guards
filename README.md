@@ -20,7 +20,7 @@ import cookies from 'js-cookie';
 import configs from "@configs";
 import store from '@store';
 
-import {authCheckGuard} from 'vue-router-guards'
+import {authCheckGuard} from 'vue-and-router-guards'
 import routes from './routes';
 
 Vue.use(VueRouter);
@@ -94,7 +94,7 @@ import VueRouter from 'vue-router';
 
 import store from '@store';
 
-import {authCheckGuard} from 'vue-router-guards'
+import {rightsCheckGuard} from 'vue-and-router-guards'
 import routes from './routes';
 
 Vue.use(VueRouter);
