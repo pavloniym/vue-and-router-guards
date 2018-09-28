@@ -1,7 +1,7 @@
 {
     "name": "vue-and-router-guards",
     "main": "dist/guards.min.js",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Vue-router guards for auth and access checks",
     "scripts": {
         "build": " ./node_modules/.bin/webpack"
